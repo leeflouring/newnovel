@@ -1114,7 +1114,7 @@ Expected: all four checks behave as specified in `docs/superpowers/specs/2026-03
 
 Run:
 ```bash
-powershell.exe -NoProfile -File "C:\Users\lisheng\Desktop\1\novel筛选\.omc\run_tests_ascii.ps1"
+powershell.exe -NoProfile -File "C:\Users\lisheng\Desktop\1\novel filter tool\.omc\run_tests_ascii.ps1"
 ```
 Expected: PASS once `kernel32.lib` / Windows SDK libs are installed; if it still fails, capture the new linker output before making more code changes.
 
